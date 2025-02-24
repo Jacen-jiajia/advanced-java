@@ -24,8 +24,8 @@ jobs:
         if: |
           steps.calibre.outputs.markdown != ''
         run: |
-          git config --local user.email "szuyanglb@outlook.com"
-          git config --local user.name "yanglbme"
+          git config --local user.email "xingchen66888@outlook.com"
+          git config --local user.name "xingchen"
           git commit -m "chore: auto compress images" -a
 
       - name: Push Changes
